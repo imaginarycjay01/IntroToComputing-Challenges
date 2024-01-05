@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Purehandz</title>
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="media queries/globalQueries.css">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+   <header class="header">
+      <div class="header-items">
+         <div class="bruh">
+            <img src="/resources/logo-icons/purehands-logo.png" class="logo-pic">
+            <a href="#" class="logo">Purehandz</a>
+         </div>
+         <input type="checkbox" id="check">
+         <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+         </label>
+
+         <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="#">About</a>
+            <a href="#">Contact Us</a>
+         </nav>
+         <button class="hamburger" onclick="showHamburger()">
+            Hamburger
+         </button>
+      </div>
+      <div class="navbar-mobile" id="navbarItems">
+            <a href="home.html" style="--i:0;">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About</a>
+            <a href="#">Contact Us</a>
+      </div>
+   </header>
+   <div class="ser-container">
+      <h1 class="ser1">services</h1>
+   </div>
+
+</body>
+<script>
+   function showHamburger() {
+      var x = document.getElementById("navbarItems");
+      if (x.style.display === "flex") {
+         x.style.display = "none";
+      } else {
+         x.style.display = "flex";
+      }
+   }
+
+   function handleResize() {
+      var x = document.getElementById("navbarItems");
+      if (window.innerWidth > 768) {
+         x.style.display = "none";
+      }
+   }
+   window.addEventListener('resize', handleResize);
+</script>
+
+</html>

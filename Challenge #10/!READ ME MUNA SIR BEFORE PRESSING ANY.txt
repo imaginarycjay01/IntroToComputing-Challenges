@@ -1,0 +1,3 @@
+>Read documentation first if you haven't read it on VLE
+>Run "Home" for default landing page
+>Run this preferably on Brave browser. Chrome is fine but it could lead to errors.
