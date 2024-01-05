@@ -1,0 +1,27 @@
+/* this is a block, ito yung pink BG */
+.bg {
+    display: block;
+    background-color: pink;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* this is an Inline, ito yung text at BG nya */
+.text {
+    display: inline;
+    background-color: lightblue;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+/* a class, obviously */
+.class {
+    color: red;
+    font-weight: bold;
+}
+
+/* an ID */
+#id {
+    color: blue;
+    font-style: italic;
+}
