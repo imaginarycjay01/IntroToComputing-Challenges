@@ -1,0 +1,1 @@
+I don't want to implement any kind of videos to my project that's why I did challenge on a blank HTML file just to demonstrate how it works
